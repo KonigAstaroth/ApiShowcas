@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 
-function GenerateTranslation(){
+function GenerateFacts(){
     const [fact, setFact] = useState("")
     async function fetchData() {
         try {
@@ -14,7 +14,7 @@ function GenerateTranslation(){
             console.log(response)
             setFact(response.fact)
         } catch (error) {
-            
+            console.log(error)
         }
         
     }
@@ -31,4 +31,4 @@ function GenerateTranslation(){
     )
 }
 
-export default GenerateTranslation
+export default GenerateFacts

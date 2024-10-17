@@ -27,11 +27,7 @@ function DogPic() {
             </div>
             <br></br>
             <img src={dogImage} style={{display:"flex", margin:"auto", width:"300px", height:"300px"}}/>
-           
-    
-      
         </div>
-        
     )
 }
 

@@ -1,5 +1,5 @@
 import GenerateJoke from "./components/generate_joke";
-import GenerateTranslation from "./components/generate_translation";
+import GenerateFacts from "./components/generate_facts";
 import DogPic from "./components/dog_pics";
 export default function Home() {
   return (
@@ -7,7 +7,7 @@ export default function Home() {
       <h1>Showcase de APIs</h1>
       <br></br>
       <GenerateJoke/>
-      <GenerateTranslation/> 
+      <GenerateFacts/> 
       <DogPic/>
     </div>
   );
